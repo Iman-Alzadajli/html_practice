@@ -1,0 +1,33 @@
+p {color: darkblue;}
+
+h5 {color: darkred;}
+
+
+p {
+  border: 2px solid red; 
+  padding: 30px; /* space betwwen text in border */ 
+    margin: 20px; /* space outside other */
+    text-align: center; /* center text */
+
+}
+
+table, th, td, tr{
+  border: 1px solid red;
+}
+
+
+.class1 
+{
+    color: blue;
+    background-color: lightblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#id2
+{
+    color: green;
+    background-color: lightgreen;
+    font-size: 20px;
+    text-align: center;
+}

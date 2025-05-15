@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form by iman</title>
+</head>
+<body>
+
+    <h2> This this Form : </h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"> <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"> <br><br>
+
+        <label for="checkbox" > Choose your favroite drink</label>
+        <input type="checkbox" id="checkbox" value="coffee"> Coffee
+        <input type="checkbox" id="checkbox" value="tea"> Tea                 <!--This checkbox you can add and tick-->
+        <input type="checkbox" id="checkbox" value="juice"> Juice
+        <input type="checkbox" id="checkbox" value="water"> Water
+        <br><br>
+
+        <label for="radio"> what are you</label>    <!--This radio button we can use it for gender-->
+        <input type="radio" id="radio=" value="male"> male 
+        <input type="radio" id="radio=" value="female"> female
+        <input type="radio" id="radio=" value="robot"> robot <br><br>
+
+        <label for="select">Choose a fruit:</label>
+        <select id="select" name="fruit"> <!--a drop down list-->
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+            <option value="grape">Grape</option>
+
+            <textarea id="textarea" rows="4" cols="50"> <!-- you can write here good for feedbacks -->
+                This is a text area. You can write a lot of text here.
+            </textarea> <br><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        <br><br> 
+
+        <button type="button" onclick="alert('i know its hard but keep up :D ')" > clich here what are you waiting for</button>"
+    </form>
+
+    <form>
+       <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+       </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <video width="300" height="200" controls>
+        <source src="testing.mp4" type="video/mp4">
+        your browser does not support viedos 
+    </video>
+
+    <audio controls>
+        <source src="testing.mp3" type="audio/mpeg"> <!-- this is audio but i have no audio :()-->
+        your browser does not support audio
+    </audio>
+
+    <br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9GXajAGRldY?si=t0s2TbvrS_HGX7me" title="YouTube video player" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+
+
+</body>
+</html>
